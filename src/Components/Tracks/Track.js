@@ -2,12 +2,13 @@ import React from 'react';
 
 
 function Track(props) {
+  
   return (
     <div>
       <ul>
-       <li>trackImg={props.tracklistObject.trackImage}</li>       
-       <li>title={props.tracklistObject.trackTitle}</li>
-       <li>title={props.tracklistObject.trackArtist}</li>
+       <li>{props.tracklistObject.trackImage}</li>       
+       <li>{props.tracklistObject.trackTitle}</li>
+       <li>{props.tracklistObject.trackArtist}</li>
        <li><button>Add to playlist</button></li>
       </ul>
      </div>

@@ -1,20 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 import SearchBar from './Components/Search/SearchBar'
-import { tracklist } from './Components/Tracks/Tracklist'
-import Track from './Components/Tracks/Track'
+import TrackTiles from './Components/Tracks/trackTiles'
+import PlaylistTiles from './Components/Playlist/PlaylistTiles'
 
 function App(props) {
   return (
     <div className="App">
-      <header className="App-header">
+      <h1>Spotify playlist generator</h1>
         
-        <p>
-          <SearchBar />
-        </p>
+        
+         <div id="searchBar"><SearchBar /></div>
+        
        
-      </header>
-      <body></body>
+      
+      
+       <section id="lists"><div id="tracklist"><h2>Tracks</h2><TrackTiles /></div><div id="playlist"><h2>Playlist</h2><PlaylistTiles /></div></section>
+      
     </div>
   );
 }
