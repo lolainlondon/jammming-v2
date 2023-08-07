@@ -7,7 +7,8 @@ function Track(props) {
     <div>
       <ul>
        <li>{props.tracklistObject.trackImage}</li>       
-       <li>{props.tracklistObject.trackTitle}</li>
+        <li>{props.tracklistObject.trackTitle}</li>
+        <li>{props.tracklistObject.trackAlbum}</li>
        <li>{props.tracklistObject.trackArtist}</li>
        <li><button>Add to playlist</button></li>
       </ul>

@@ -40,27 +40,33 @@ ul {
 li {
   flex-basis: 25%;
   align-items: flex-start;
+  padding: 5px;
 }
 
 #lists {
   display:flex;
   color: black;
   font-size: 0.8rem;
+  
 }
 
 #playlist {
   background-color: cornsilk;
   border-radius: 5px;
   margin: 5px;
+  padding: 10px;
+  flex-basis: 50%;
 
 }
 #tracklist {
   background-color: gainsboro;
   border-radius: 5px;
   margin: 5px;
+  padding: 10px;
+  flex-basis: 50%;
 }
 
 #searchBar {
-  margin: 90px;
+  margin: 10px;
 }
 

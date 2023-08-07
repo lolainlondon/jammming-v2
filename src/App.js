@@ -15,7 +15,7 @@ function App(props) {
        
       
       
-       <section id="lists"><div id="tracklist"><h2>Tracks</h2><TrackTiles /></div><div id="playlist"><h2>Playlist</h2><PlaylistTiles /></div></section>
+       <section id="lists"><div id="tracklist"><h2>Tracks</h2><TrackTiles /></div><div id="playlist"><h2>Playlist</h2><PlaylistTiles /><button>Save Playlist to Spotify</button></div></section>
       
     </div>
   );
