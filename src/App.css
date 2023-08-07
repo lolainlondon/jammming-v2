@@ -56,6 +56,7 @@ li {
   margin: 5px;
   padding: 10px;
   flex-basis: 50%;
+  text-align: left;
 
 }
 #tracklist {
@@ -64,6 +65,7 @@ li {
   margin: 5px;
   padding: 10px;
   flex-basis: 50%;
+  text-align: left;
 }
 
 #searchBar {
